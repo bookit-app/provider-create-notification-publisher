@@ -1,4 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/bookit-app/provider-create-notification-publisher/badge.svg?branch=master)](https://coveralls.io/github/bookit-app/provider-create-notification-publisher?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a831f3350a0e4c1983539ff2c85e3fdc)](https://www.codacy.com/gh/bookit-app/provider-create-notification-publisher?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bookit-app/provider-create-notification-publisher&amp;utm_campaign=Badge_Grade)
 
 # provider-create-notification-publisher
 
