@@ -1,15 +1,15 @@
 steps:
-  - name: "node:10.16.3"
+  - name: 'node:10.16.3'
     entrypoint: npm
-    args: ["install"]
+    args: ['install']
 
-  - name: "node:10.16.3"
+  - name: 'node:10.16.3'
     entrypoint: npm
-    args: ["run", "test"]
+    args: ['run', 'test']
 
-  - name: "node:10.16.3"
+  - name: 'node:10.16.3'
     entrypoint: npm
-    args: ["run", "lint"]
+    args: ['run', 'lint']
 
   - name: gcr.io/cloud-builders/gcloud
     args:
@@ -21,15 +21,15 @@ steps:
       - --keyring=build-ring
       - --key=env-enc-key
 
-  - name: "gcr.io/cloud-builders/gcloud"
+  - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - functions
       - deploy
       - provider-create-notification-publisher
       - --source=.
-      - "--trigger-event=providers/cloud.firestore/eventTypes/document.create"
-      - "--trigger-resource=projects/sweng-581-capstone/databases/(default)/documents/ServiceProvider/{providerId}"
+      - '--trigger-event=providers/cloud.firestore/eventTypes/document.create'
+      - '--trigger-resource=projects/bookit-app-260021/databases/(default)/documents/ServiceProvider/{providerId}'
       - --runtime=nodejs10
-      - --region=us-central1
+      - --region=us-east1
       - --env-vars-file=gcloud-env.yaml
       - --entry-point=publishNotification

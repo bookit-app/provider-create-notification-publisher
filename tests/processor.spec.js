@@ -19,7 +19,7 @@ const data = {
     updateMask: {},
     value: {},
     name:
-      'projects/sweng-581-capstone/databases/(default)/documents/ServiceProvider/10001',
+      'projects/bookit-app-260021/databases/(default)/documents/ServiceProvider/10001',
     updateTime: '2019-10-25T14:48:48.021215Z'
   }
 };
@@ -30,7 +30,7 @@ const context = {
   notSupported: {},
   params: { providerId: '10001' },
   resource:
-    'projects/sweng-581-capstone/databases/(default)/documents/ServiceProvider/10001',
+    'projects/bookit-app-260021/databases/(default)/documents/ServiceProvider/10001',
   timestamp: '2019-10-25T14:48:48.021215Z'
 };
 
@@ -74,7 +74,7 @@ describe('provider-create-notification-publisher: unit tests', () => {
         updateMask: {},
         value: {},
         name:
-          'projects/sweng-581-capstone/databases/(default)/documents/ServiceProvider/10001',
+          'projects/bookit-app-260021/databases/(default)/documents/ServiceProvider/10001',
         updateTime: '2019-10-25T14:48:48.021215Z'
       }
     };
