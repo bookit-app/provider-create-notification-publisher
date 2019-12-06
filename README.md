@@ -3,7 +3,7 @@
 
 # provider-create-notification-publisher
 
-Generates notifications to a PubSub topic when deletions are detected for Service Provider. This will allow services to be notified of changes so that they can make necessary adjustments to any dependent information.
+Generates notifications to a PubSub topic when creations are detected for Service Provider. This will allow services to be notified of changes so that they can make necessary adjustments to any dependent information.
 
 ## Processing
 
